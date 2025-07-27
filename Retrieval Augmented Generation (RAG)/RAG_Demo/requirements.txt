@@ -1,0 +1,17 @@
+langchain
+langchain-community
+langchain-core
+langchain-experimental
+langchain-chroma
+langchain-openai
+langchain-ollama
+langchain-groq
+groq
+ollama
+openai
+sentence-transformers
+python-dotenv
+streamlit
+langchainhub
+unstructured
+ipykernel
