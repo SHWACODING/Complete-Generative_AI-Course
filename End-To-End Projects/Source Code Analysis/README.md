@@ -1,5 +1,4 @@
-# End-to-end-Medical-Chatbot-Generative-AI
-
+# End-to-end-Source-Code-Analysis-Generative-AI
 
 # How to run?
 ### STEPS:
@@ -12,11 +11,11 @@ Project repo: https://github.com/
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n medibot python=3.10 -y
+conda create -n llmapp python=3.10 -y
 ```
 
 ```bash
-conda activate medibot
+conda activate llmapp
 ```
 
 
@@ -25,19 +24,12 @@ conda activate medibot
 pip install -r requirements.txt
 ```
 
-
-### Create a `.env` file in the root directory and add your Pinecone & Groq credentials as follows:
+### Create a `.env` file in the root directory and add your GROQ_API_KEY credentials as follows:
 
 ```ini
-PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 GROQ_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
-
-```bash
-# run the following command to store embeddings to pinecone
-python store_index.py
-```
 
 ```bash
 # Finally run the following command
@@ -55,5 +47,6 @@ open up localhost:
 - Python
 - LangChain
 - Flask
-- Qroq
-- Pinecone
+- Groq
+- Chromadb
+
